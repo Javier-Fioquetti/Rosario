@@ -1,0 +1,109 @@
+* {
+	scroll-behavior: smooth;
+}
+body {
+	margin: 0;
+	background-image: url(https://st.depositphotos.com/2453601/2771/i/450/depositphotos_27712101-stock-photo-virgin-mary-statue-at-the.jpg);
+	font-family: sans-serif;
+	transition: transform 0.3s;
+	transform: translateY(0);
+	scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 768px){
+	body{
+		background-image: url(https://desdelafe.mx/wp-content/uploads/2019/05/virgen-maria.jpg);
+		transform: translateY(0);
+	}
+}
+
+.icono {
+	max-width: 100%;
+	opacity: 0.5;
+	
+}
+
+.toggle-menu {
+	position: absolute;
+	top: 0.5rem;
+	right: 1.5rem;
+	cursor: pointer;
+	width: 40px;
+	z-index: 1;
+	
+}
+
+
+@media screen and (min-width: 768px){
+	.toggle-menu{
+		display: none;
+	}
+}
+
+.main-menu {
+	list-style: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: lightcoral;
+	transition: transform 0.3s;
+	transform: translateY(-100%);
+	font-size: 10px;
+	
+}
+
+.main-menu--show {
+	transform: translateY(0);
+	box-shadow: 20px 20px 20px black;
+}
+
+@media screen and (min-width: 768px){
+	.main-menu{
+		flex-direction: row;
+		transform: translateY(0);
+	}
+}
+
+.main-menu__item {
+	padding: 1em;
+	border-radius: 20px 20px 20px 20px;
+	display: inline-block;
+	box-shadow: inset 0 0 15px 10px maroon;
+	width: 80%;
+}
+
+.main-menu__link {
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;	
+}
+
+
+.btn-iniciar {
+	padding: 1em;
+	position: absolute;
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: inset 0 0 15px 10px maroon;
+	top: 8em;
+	left: 15em;
+	width: 90px;
+	cursor: pointer;
+	transition: transform 3s;
+}
+
+:hover.btn-iniciar {
+	box-shadow: 0 0 15px 10px maroon;
+	background-color: darksalmon;
+}
+	
+
+
+.btn-iniciar.active {
+	opacity: 0;
+	transition: transform 0.3s;
+	transform: translateY(-100%);
+}

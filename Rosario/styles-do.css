@@ -1,0 +1,1174 @@
+* {
+	scroll-behavior: smooth;
+}
+body {
+	margin: 0;
+	background-image: url(https://st.depositphotos.com/2453601/2771/i/450/depositphotos_27712101-stock-photo-virgin-mary-statue-at-the.jpg);
+	font-family: sans-serif;
+	transition: transform 0.3s;
+	transform: translateY(0);
+	scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 768px){
+	body{
+		background-image: url(https://desdelafe.mx/wp-content/uploads/2019/05/virgen-maria.jpg);
+		transform: translateY(0);
+	}
+}
+
+
+
+.toggle-menu {
+	position: absolute;
+	top: 0.5rem;
+	right: 1.5rem;
+	cursor: pointer;
+	width: 40px;
+	z-index: 1;
+	
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+	.toggle-menu{
+		top: 4rem;
+		right: 6rem;
+	}
+	
+	.main-menu{
+		flex-direction: row;
+		transform: translateY(0);
+	}
+}
+
+
+
+.link-volver {
+	color: black;
+	text-transform: uppercase;
+	text-decoration: overline;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	box-shadow: 3px 3px 10px black;
+	
+}
+.contenedor {
+	width: 100%;
+	max-width: 1000px;
+	top:0;
+	margin: 20px auto; 
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+
+
+
+/*MISTERIOS DOLOROSOSOS
+--------------------------------------------------------------
+----------------------------------------------------------------
+--------------------------------------------
+------------------------------------------------
+---------------------------------------------
+---------------------------------------------
+-----------------------------------------------*/
+
+
+/*COMIENZO DEL PRIMER MISTERIO DOLOROSO*/
+
+.inicio-do, 
+.misterio-1-do, 
+.padrenuestro-m1-do, 
+.avemaria-1-m1-do,
+.avemaria-2-m1-do, 
+.avemaria-3-m1-do,
+.avemaria-4-m1-do,
+.avemaria-5-m1-do, 
+.avemaria-6-m1-do,
+.avemaria-7-m1-do,
+.avemaria-8-m1-do, 
+.avemaria-9-m1-do,
+.avemaria-10-m1-do,
+.gloria-m1-do {
+	width: 80px;
+	height: 50px;
+	padding: 0.5em;
+	flex-direction: column;
+	list-style: none;
+	background-color:darkorange;
+	text-align: center;
+	position: absolute;
+	cursor: pointer;
+	text-align: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: medium;
+	border-radius: 10%;
+    opacity: 1;
+	transition: transform .3s ease;
+}
+.avemaria-1-m1-do,
+.avemaria-2-m1-do, 
+.avemaria-3-m1-do,
+.avemaria-4-m1-do,
+.avemaria-5-m1-do, 
+.avemaria-6-m1-do,
+.avemaria-7-m1-do,
+.avemaria-8-m1-do, 
+.avemaria-9-m1-do,
+.avemaria-10-m1-do {
+	width: 20px;
+	height: 20px;
+	border-radius: 100%; 
+}
+.inicio-do {
+	top: .5em;
+	left: 12em;
+}
+.misterio-1-do {
+	top: 4em;
+	left: 12em;
+}
+.padrenuestro-m1-do {
+	top: 7.5em;
+	left: 6em;	
+}
+.avemaria-1-m1-do {
+	top: 12em;
+	left: 8em;
+}
+.avemaria-2-m1-do {
+	top: 14em;
+	left: 8em;
+}
+.avemaria-3-m1-do {
+	top: 16em;
+	left: 8em;
+}
+.avemaria-4-m1-do {
+	top: 18em;
+	left: 8em;
+}
+.avemaria-5-m1-do {
+	top: 20em;
+	left: 8em;
+}
+.avemaria-6-m1-do {
+	top: 22em;
+	left: 8em;
+}
+.avemaria-7-m1-do {
+	top: 24em;
+	left: 8em;
+}
+.avemaria-8-m1-do {
+	top: 26em;
+	left: 8em;
+}
+.avemaria-9-m1-do {
+	top: 28em;
+	left: 8em;
+}
+.avemaria-10-m1-do {
+	top: 30em;
+	left: 8em;
+}
+.gloria-m1-do {
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	top: 32em;
+	left: 7.4em;
+}
+/*FIN PRIMER MISTERIO DOLOROSO*/
+
+:hover.inicio-do,
+:hover.padrenuestro-m1-do, 
+:hover.misterio-1-do,
+:hover.avemaria-1-m1-do,
+:hover.avemaria-2-m1-do,
+:hover.avemaria-3-m1-do,
+:hover.avemaria-4-m1-do,
+:hover.avemaria-5-m1-do,
+:hover.avemaria-6-m1-do,
+:hover.avemaria-7-m1-do,
+:hover.avemaria-8-m1-do,
+:hover.avemaria-9-m1-do,
+:hover.avemaria-10-m1-do,
+:hover.gloria-m1-do {
+	box-shadow: 0 0 10px 5px black;
+	transition: .3s ease all;
+}
+
+.inicio-oracion-do,
+.misterio-1-oracion-do,
+.padrenuestro-m1-oracion-do,
+.avemaria-1-m1-oracion-do,
+.gloria-m1-oracion-do {
+	background-color: aquamarine;
+	box-shadow: 5px 5px 5px black;
+	position: relative;
+	border-radius: 2%;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding: 5px;
+	text-align: center;
+	width: 80%;
+	top: 9.5em;
+	opacity: 0;
+	transition: transform 1s ease;
+	transform: scale(0.7);
+	z-index: 2;
+}
+/*FIN PRIMER MISTERIO GOZOSO*/
+
+.inicio-oracion-do.active, 
+.misterio-1-oracion-do.active, 
+.padrenuestro-m1-oracion-do.active,
+.avemaria-1-m1-oracion-do.active,
+.avemaria-2-m1-oracion-do.active,
+.avemaria-3-m1-oracion-do.active,
+.avemaria-4-m1-oracion-do.active,
+.avemaria-5-m1-oracion-do.active,
+.avemaria-6-m1-oracion-do.active,
+.avemaria-7-m1-oracion-do.active,
+.avemaria-8-m1-oracion-do.active,
+.avemaria-9-m1-oracion-do.active,
+.avemaria-10-m1-oracion-do.active,
+.gloria-m1-oracion-do.active {
+	opacity: 1;
+	transform: scale(1);
+	position: absolute;
+	transition: .5s ease all;
+}
+/*FIN PRIMER MISTERIO GOZOSO*/
+
+
+.misterio-2-do, 
+.padrenuestro-m2-do, 
+.avemaria-1-m2-do,
+.avemaria-2-m2-do, 
+.avemaria-3-m2-do,
+.avemaria-4-m2-do,
+.avemaria-5-m2-do, 
+.avemaria-6-m2-do,
+.avemaria-7-m2-do,
+.avemaria-8-m2-do, 
+.avemaria-9-m2-do,
+.avemaria-10-m2-do,
+.gloria-m2-do {
+	width: 80px;
+	height: 50px;
+	padding: 0.5em;
+	flex-direction: column;
+	list-style: none;
+	align-items: center;
+	background-color:darkorange;
+	text-align: center;
+	position: absolute;
+	cursor: pointer;
+	text-align: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: medium;
+	border-radius: 10%;
+    opacity: 1;
+}
+
+.avemaria-1-m2-do,
+.avemaria-2-m2-do, 
+.avemaria-3-m2-do,
+.avemaria-4-m2-do,
+.avemaria-5-m2-do, 
+.avemaria-6-m2-do,
+.avemaria-7-m2-do,
+.avemaria-8-m2-do, 
+.avemaria-9-m2-do,
+.avemaria-10-m2-do {
+	width: 20px;
+	height: 20px;
+	border-radius: 100%; 
+}
+
+
+.misterio-2-do {
+	top: 35.5em;
+	left: 6em;
+}
+.padrenuestro-m2-do {
+	top: 39em;
+	left: 6em;	
+}
+.avemaria-1-m2-do {
+	top: 43.5em;
+	left: 8em;
+}
+.avemaria-2-m2-do {
+	top: 45.5em;
+	left: 8em;
+}
+.avemaria-3-m2-do {
+	top: 47.5em;
+	left: 8em;
+}
+.avemaria-4-m2-do {
+	top: 49.5em;
+	left: 8em;
+}
+.avemaria-5-m2-do {
+	top: 51.5em;
+	left: 8em;
+}
+.avemaria-6-m2-do {
+	top: 53.5em;
+	left: 8em;
+}
+.avemaria-7-m2-do {
+	top: 55.5em;
+	left: 8em;
+}
+.avemaria-8-m2-do {
+	top: 57.5em;
+	left: 8em;
+}
+.avemaria-9-m2-do {
+	top: 59.5em;
+	left: 8em;
+}
+.avemaria-10-m2-do {
+	top: 61.5em;
+	left: 8em;
+}
+.gloria-m2-do {
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	top: 63.5em;
+	left: 7.4em;
+}
+
+:hover.padrenuestro-m2-do, 
+:hover.misterio-2-do,
+:hover.avemaria-1-m2-do,
+:hover.avemaria-2-m2-do,
+:hover.avemaria-3-m2-do,
+:hover.avemaria-4-m2-do,
+:hover.avemaria-5-m2-do,
+:hover.avemaria-6-m2-do,
+:hover.avemaria-7-m2-do,
+:hover.avemaria-8-m2-do,
+:hover.avemaria-9-m2-do,
+:hover.avemaria-10-m2-do,
+:hover.gloria-m2-do {
+	box-shadow: 0 0 10px 5px black;
+	transition: .3s ease all;
+}
+
+.misterio-2-oracion-do,
+.padrenuestro-m2-oracion-do,
+.avemaria-1-m2-oracion-do,
+.gloria-m2-oracion-do {
+	background-color: aquamarine;
+	box-shadow: 5px 5px 5px black;
+	position: relative;
+	border-radius: 2%;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding: 5px;
+	text-align: center;
+	width: 80%;
+	top: 44em;
+	opacity: 0;
+	transition: transform 1s ease;
+	transform: scale(0.7);
+	z-index: 2;
+}
+
+
+.misterio-2-oracion-do.active, 
+.padrenuestro-m2-oracion-do.active,
+.avemaria-1-m2-oracion-do.active,
+.avemaria-2-m2-oracion-do.active,
+.avemaria-3-m2-oracion-do.active,
+.avemaria-4-m2-oracion-do.active,
+.avemaria-5-m2-oracion-do.active,
+.avemaria-6-m2-oracion-do.active,
+.avemaria-7-m2-oracion-do.active,
+.avemaria-8-m2-oracion-do.active,
+.avemaria-9-m2-oracion-do.active,
+.avemaria-10-m2-oracion-do.active,
+.gloria-m2-oracion-do.active {
+	opacity: 1;
+	transform: scale(1);
+	position: absolute;
+	transition: .5s ease all;
+}
+/*FIN SEGUNDO MISTERIO GOZOSO*/
+
+
+.misterio-3-do, 
+.padrenuestro-m3-do, 
+.avemaria-1-m3-do,
+.avemaria-2-m3-do, 
+.avemaria-3-m3-do,
+.avemaria-4-m3-do,
+.avemaria-5-m3-do, 
+.avemaria-6-m3-do,
+.avemaria-7-m3-do,
+.avemaria-8-m3-do, 
+.avemaria-9-m3-do,
+.avemaria-10-m3-do,
+.gloria-m3-do {
+	width: 80px;
+	height: 50px;
+	padding: 0.5em;
+	flex-direction: column;
+	list-style: none;
+	align-items: center;
+	background-color:darkorange;
+	text-align: center;
+	position: absolute;
+	cursor: pointer;
+	text-align: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: medium;
+	border-radius: 10%;
+    opacity: 1;
+}
+
+.avemaria-1-m3-do,
+.avemaria-2-m3-do, 
+.avemaria-3-m3-do,
+.avemaria-4-m3-do,
+.avemaria-5-m3-do, 
+.avemaria-6-m3-do,
+.avemaria-7-m3-do,
+.avemaria-8-m3-do, 
+.avemaria-9-m3-do,
+.avemaria-10-m3-do {
+	width: 20px;
+	height: 20px;
+	border-radius: 100%; 
+}
+
+
+.misterio-3-do {
+	top: 67em;
+	left: 6em;
+}
+.padrenuestro-m3-do {
+	top: 70.5em;
+	left: 6em;	
+}
+.avemaria-1-m3-do {
+	top: 75em;
+	left: 8em;
+}
+.avemaria-2-m3-do {
+	top: 77em;
+	left: 8em;
+}
+.avemaria-3-m3-do {
+	top: 79em;
+	left: 8em;
+}
+.avemaria-4-m3-do {
+	top: 81em;
+	left: 8em;
+}
+.avemaria-5-m3-do {
+	top: 83em;
+	left: 8em;
+}
+.avemaria-6-m3-do {
+	top: 85em;
+	left: 8em;
+}
+.avemaria-7-m3-do {
+	top: 87em;
+	left: 8em;
+}
+.avemaria-8-m3-do {
+	top: 89em;
+	left: 8em;
+}
+.avemaria-9-m3-do {
+	top: 91em;
+	left: 8em;
+}
+.avemaria-10-m3-do {
+	top: 93em;
+	left: 8em;
+}
+.gloria-m3-do {
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	top: 95em;
+	left: 7.4em;
+}
+
+:hover.padrenuestro-m3-do, 
+:hover.misterio-3-do,
+:hover.avemaria-1-m3-do,
+:hover.avemaria-2-m3-do,
+:hover.avemaria-3-m3-do,
+:hover.avemaria-4-m3-do,
+:hover.avemaria-5-m3-do,
+:hover.avemaria-6-m3-do,
+:hover.avemaria-7-m3-do,
+:hover.avemaria-8-m3-do,
+:hover.avemaria-9-m3-do,
+:hover.avemaria-10-m3-do,
+:hover.gloria-m3-do {
+	box-shadow: 0 0 10px 5px black;
+	transition: .3s ease all;
+}
+
+.misterio-3-oracion-do,
+.padrenuestro-m3-oracion-do,
+.avemaria-1-m3-oracion-do,
+.gloria-m3-oracion-do {
+	background-color: aquamarine;
+	box-shadow: 5px 5px 5px black;
+	position: relative;
+	border-radius: 2%;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding: 5px;
+	text-align: center;
+	width: 80%;
+	top: 74em;
+	opacity: 0;
+	transition: transform 1s ease;
+	transform: scale(0.7);
+	z-index: 2;
+}
+
+
+.misterio-3-oracion-do.active, 
+.padrenuestro-m3-oracion-do.active,
+.avemaria-1-m3-oracion-do.active,
+.avemaria-2-m3-oracion-do.active,
+.avemaria-3-m3-oracion-do.active,
+.avemaria-4-m3-oracion-do.active,
+.avemaria-5-m3-oracion-do.active,
+.avemaria-6-m3-oracion-do.active,
+.avemaria-7-m3-oracion-do.active,
+.avemaria-8-m3-oracion-do.active,
+.avemaria-9-m3-oracion-do.active,
+.avemaria-10-m3-oracion-do.active,
+.gloria-m3-oracion-do.active {
+	opacity: 1;
+	transform: scale(1);
+	position: absolute;
+	transition: .5s ease all;
+}
+/*FIN TERCER MISTERIO GOZOSO*/
+
+
+.misterio-4-do, 
+.padrenuestro-m4-do, 
+.avemaria-1-m4-do,
+.avemaria-2-m4-do, 
+.avemaria-3-m4-do,
+.avemaria-4-m4-do,
+.avemaria-5-m4-do, 
+.avemaria-6-m4-do,
+.avemaria-7-m4-do,
+.avemaria-8-m4-do, 
+.avemaria-9-m4-do,
+.avemaria-10-m4-do,
+.gloria-m4-do {
+	width: 80px;
+	height: 50px;
+	padding: 0.5em;
+	flex-direction: column;
+	list-style: none;
+	align-items: center;
+	background-color:darkorange;
+	text-align: center;
+	position: absolute;
+	cursor: pointer;
+	text-align: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: medium;
+	border-radius: 10%;
+    opacity: 1;
+	
+}
+
+
+.misterio-4-do {
+	top: 98.5em;
+	left: 6em;
+}
+.padrenuestro-m4-do {
+	top: 102em;
+	left: 6em;	
+}
+
+.avemaria-1-m4-do,
+.avemaria-2-m4-do, 
+.avemaria-3-m4-do,
+.avemaria-4-m4-do,
+.avemaria-5-m4-do, 
+.avemaria-6-m4-do,
+.avemaria-7-m4-do,
+.avemaria-8-m4-do, 
+.avemaria-9-m4-do,
+.avemaria-10-m4-do {
+	width: 20px;
+	height: 20px;
+	border-radius: 100%; 
+}
+
+.avemaria-1-m4-do {
+	top: 106.5em;
+	left: 8em;
+}
+.avemaria-2-m4-do {
+	top: 108.5em;
+	left: 8em;
+}
+.avemaria-3-m4-do {
+	top: 110.5em;
+	left: 8em;
+}
+.avemaria-4-m4-do {
+	top: 112.5em;
+	left: 8em;
+}
+.avemaria-5-m4-do {
+	top: 114.5em;
+	left: 8em;
+}
+.avemaria-6-m4-do {
+	top: 116.5em;
+	left: 8em;
+}
+.avemaria-7-m4-do {
+	top: 118.5em;
+	left: 8em;
+}
+.avemaria-8-m4-do {
+	top: 120.5em;
+	left: 8em;
+}
+.avemaria-9-m4-do {
+	top: 122.5em;
+	left: 8em;
+}
+.avemaria-10-m4-do {
+	top: 124.5em;
+	left: 8em;
+}
+.gloria-m4-do {
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	top: 126.5em;
+	left: 7.4em;
+}
+
+:hover.misterio-4-do,
+:hover.padrenuestro-m4-do, 
+:hover.avemaria-1-m4-do,
+:hover.avemaria-2-m4-do,
+:hover.avemaria-3-m4-do,
+:hover.avemaria-4-m4-do,
+:hover.avemaria-5-m4-do,
+:hover.avemaria-6-m4-do,
+:hover.avemaria-7-m4-do,
+:hover.avemaria-8-m4-do,
+:hover.avemaria-9-m4-do,
+:hover.avemaria-10-m4-do,
+:hover.gloria-m4-do {
+	box-shadow: 0 0 10px 5px black;
+	transition: .3s ease all;
+}
+
+.misterio-4-oracion-do,
+.padrenuestro-m4-oracion-do,
+.avemaria-1-m4-oracion-do,
+.gloria-m4-oracion-do {
+	background-color: aquamarine;
+	box-shadow: 5px 5px 5px black;
+	position: relative;
+	border-radius: 2%;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding: 5px;
+	text-align: center;
+	width: 80%;
+	top: 106em;
+	opacity: 0;
+	transition: transform 1s ease;
+	transform: scale(0.7);
+	z-index: 2;
+}
+
+
+.misterio-4-oracion-do.active, 
+.padrenuestro-m4-oracion-do.active,
+.avemaria-1-m4-oracion-do.active,
+.avemaria-2-m4-oracion-do.active,
+.avemaria-3-m4-oracion-do.active,
+.avemaria-4-m4-oracion-do.active,
+.avemaria-5-m4-oracion-do.active,
+.avemaria-6-m4-oracion-do.active,
+.avemaria-7-m4-oracion-do.active,
+.avemaria-8-m4-oracion-do.active,
+.avemaria-9-m4-oracion-do.active,
+.avemaria-10-m4-oracion-do.active,
+.gloria-m4-oracion-do.active {
+	opacity: 1;
+	transform: scale(1);
+	position: absolute;
+	transition: .5s ease all;
+}
+/*FIN CUARTO MISTERIO GOZOSO*/
+
+
+
+.misterio-5-do, 
+.padrenuestro-m5-do, 
+.avemaria-1-m5-do,
+.avemaria-2-m5-do, 
+.avemaria-3-m5-do,
+.avemaria-4-m5-do,
+.avemaria-5-m5-do, 
+.avemaria-6-m5-do,
+.avemaria-7-m5-do,
+.avemaria-8-m5-do, 
+.avemaria-9-m5-do,
+.avemaria-10-m5-do,
+.gloria-m5-do {
+	width: 80px;
+	height: 50px;
+	padding: 0.5em;
+	flex-direction: column;
+	list-style: none;
+	align-items: center;
+	background-color:darkorange;
+	text-align: center;
+	position: absolute;
+	cursor: pointer;
+	text-align: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: medium;
+	border-radius: 10%;
+    opacity: 1;
+	
+}
+
+
+.misterio-5-do {
+	top: 130em;
+	left: 6em;
+}
+.padrenuestro-m5-do {
+	top: 133.5em;
+	left: 6em;	
+}
+
+.avemaria-1-m5-do,
+.avemaria-2-m5-do, 
+.avemaria-3-m5-do,
+.avemaria-4-m5-do,
+.avemaria-5-m5-do, 
+.avemaria-6-m5-do,
+.avemaria-7-m5-do,
+.avemaria-8-m5-do, 
+.avemaria-9-m5-do,
+.avemaria-10-m5-do {
+	width: 20px;
+	height: 20px;
+	border-radius: 100%; 
+}
+
+.avemaria-1-m5-do {
+	top: 138em;
+	left: 8em;
+}
+.avemaria-2-m5-do {
+	top: 140em;
+	left: 8em;
+}
+.avemaria-3-m5-do {
+	top: 142em;
+	left: 8em;
+}
+.avemaria-4-m5-do {
+	top: 144em;
+	left: 8em;
+}
+.avemaria-5-m5-do {
+	top: 146em;
+	left: 8em;
+}
+.avemaria-6-m5-do {
+	top: 148em;
+	left: 8em;
+}
+.avemaria-7-m5-do {
+	top: 150em;
+	left: 8em;
+}
+.avemaria-8-m5-do {
+	top: 152em;
+	left: 8em;
+}
+.avemaria-9-m5-do {
+	top: 154em;
+	left: 8em;
+}
+.avemaria-10-m5-do {
+	top: 156em;
+	left: 8em;
+}
+.gloria-m5-do {
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	top: 158em;
+	left: 7.4em;
+}
+
+:hover.misterio-5-do,
+:hover.padrenuestro-m5-do, 
+:hover.avemaria-1-m5-do,
+:hover.avemaria-2-m5-do,
+:hover.avemaria-3-m5-do,
+:hover.avemaria-4-m5-do,
+:hover.avemaria-5-m5-do,
+:hover.avemaria-6-m5-do,
+:hover.avemaria-7-m5-do,
+:hover.avemaria-8-m5-do,
+:hover.avemaria-9-m5-do,
+:hover.avemaria-10-m5-do,
+:hover.gloria-m5-do {
+	box-shadow: 0 0 10px 5px black;
+	transition: .3s ease all;
+}
+
+.misterio-5-oracion-do,
+.padrenuestro-m5-oracion-do,
+.avemaria-1-m5-oracion-do,
+.gloria-m5-oracion-do {
+	background-color: aquamarine;
+	box-shadow: 5px 5px 5px black;
+	position: relative;
+	border-radius: 2%;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding: 5px;
+	text-align: center;
+	width: 80%;
+	top: 138em;
+	opacity: 0;
+	transition: transform 1s ease;
+	transform: scale(0.7);
+	z-index: 2;
+}
+
+
+.misterio-5-oracion-do.active, 
+.padrenuestro-m5-oracion-do.active,
+.avemaria-1-m5-oracion-do.active,
+.avemaria-2-m5-oracion-do.active,
+.avemaria-3-m5-oracion-do.active,
+.avemaria-4-m5-oracion-do.active,
+.avemaria-5-m5-oracion-do.active,
+.avemaria-6-m5-oracion-do.active,
+.avemaria-7-m5-oracion-do.active,
+.avemaria-8-m5-oracion-do.active,
+.avemaria-9-m5-oracion-do.active,
+.avemaria-10-m5-oracion-do.active,
+.gloria-m5-oracion-do.active {
+	opacity: 1;
+	transform: scale(1);
+	position: absolute;
+	transition: .5s ease all;
+}
+
+/*ORACIONES FINALES*/
+
+.f-do, 
+.padrenuestro-f-do, 
+.avemaria-1-f-do,
+.avemaria-2-f-do, 
+.avemaria-3-f-do,
+.gloria-f-do,
+.salve-do {
+	width: 80px;
+	height: 50px;
+	padding: 0.5em;
+	flex-direction: column;
+	list-style: none;
+	align-items: center;
+	background-color:darkorange;
+	text-align: center;
+	position: absolute;
+	cursor: pointer;
+	text-align: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: medium;
+	border-radius: 10%;
+    opacity: 1;
+	
+}
+
+
+.f-do {
+	top: 161.5em;
+	left: 6em;
+}
+.padrenuestro-f-do {
+	top: 165em;
+	left: 6em;	
+}
+
+.avemaria-1-f-do,
+.avemaria-2-f-do, 
+.avemaria-3-f-do {
+	width: 20px;
+	height: 20px;
+	border-radius: 100%; 
+}
+
+.avemaria-1-f-do {
+	top: 169.5em;
+	left: 8em;
+}
+.avemaria-2-f-do {
+	top: 171.5em;
+	left: 8em;
+}
+.avemaria-3-f-do {
+	top: 173.5em;
+	left: 8em;
+}
+.gloria-f-do {
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	top: 175.5em;
+	left: 7.4em;
+}
+
+.salve-do {
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	top: 178.5em;
+	left: 7.4em;
+}
+
+:hover.f-do,
+:hover.padrenuestro-f-do, 
+:hover.avemaria-1-f-do,
+:hover.avemaria-2-f-do,
+:hover.avemaria-3-f-do,
+:hover.gloria-f-do,
+:hover.salve-do {
+	box-shadow: 0 0 10px 5px black;
+	transition: .3s ease all;
+}
+
+.f-oracion-do,
+.padrenuestro-f-oracion-do,
+.avemaria-1-f-oracion-do,
+.gloria-f-oracion-do,
+.salve-oracion-do {
+	background-color: aquamarine;
+	box-shadow: 5px 5px 5px black;
+	position: relative;
+	border-radius: 2%;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding: 5px;
+	text-align: center;
+	width: 80%;
+	top: 170em;
+	opacity: 0;
+	transition: transform 1s ease;
+	transform: scale(0.7);
+	z-index: 2;
+}
+
+
+.f-oracion-do.active, 
+.padrenuestro-f-oracion-do.active,
+.avemaria-1-f-oracion-do.active,
+.avemaria-2-f-oracion-do.active,
+.avemaria-3-f-oracion-do.active,
+.gloria-f-oracion-do.active,
+.salve-oracion-do.active {
+	opacity: 1;
+	transform: scale(1);
+	position: absolute;
+	transition: .5s ease all;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TODA ESTA LÍNEA DE CÓDIGO NO SE VUELVE A COPIAR*/
+
+
+
+.btn-cerrar-popup {
+	font-size: 30px;
+	line-height: 30px;
+	display: block;
+	text-align: right;
+	margin: 5px;
+	color: grey;
+	transition: .3s ease all;
+ }
+
+ .btn-cerrar-popup:hover {
+	color: rgb(0, 0, 0);
+}
+
+.rezo-ok {
+	background-color: indianred;
+}
+
+
+h3 {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	
+}
+p {
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+.active h3 {
+	animation-name: entrada;
+	animation-duration: 1.5s;
+	animation-timing-function: ease;
+	animation-delay: .3s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+.active p {
+	animation-name: entrada-p;
+	animation-duration: 1.7s;
+	animation-timing-function: ease;
+	animation-delay: .3s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+
+@keyframes entrada {
+	from {
+		transform: translateY(-25px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+
+	}
+}
+
+@keyframes entrada-p {
+	from {
+		transform: translateY(25px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+
+	}
+}
